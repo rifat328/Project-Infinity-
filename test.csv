@@ -1,0 +1,4 @@
+code,name,credit,pre_requizite
+MA101,bd studies,3,mat101 mAat103
+MA102,math,3,mat101 mAat103
+MA103,English,3,mat101 mAat103

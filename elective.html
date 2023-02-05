@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+    <meta name="viewport" content="width=device-width">
+    <title>Index</title>
+    <link href="./elective_files/student" rel="stylesheet">
+
+    
+    
+    
+    <style>
+        .drawer-controls {
+            padding-top: 10px;
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+<body ng-app="aiub" class="ng-scope modal-open" data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="" style="padding-right: 17px;">
+    <script src="./elective_files/student(1)"></script>
+
+    
+    <div id="dvLoading">
+    </div>
+    <div id="backOpacity"></div>
+    <div class="container">
+        <br>
+        
+
+<div class="row ng-scope" ng-app="aiub" ng-controller="NotificationController" ng-init="init(&#39;/&#39;)" ng-click="DocumentClick()">
+    <div class="hidden-lg hidden-md" style="padding: 15px;">
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="topbar-container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-00000000-0000-0000-0000-000000000000">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a id="navigation-toggler" class="navbar-brand logo" href="https://portal.aiub.edu/Student">
+                </a>
+
+            </div>
+            <ul class="nav navbar-nav hidden-md hidden-sm hidden-xs">
+                <li><a href="https://portal.aiub.edu/Student/Course?q=iBpjLWVwA0VqUfd1zzMKvKuQZ4HHzfR0RBG0enAqZLY%3D"><i class="glyphicon glyphicon-list" aria-hidden="true"></i>&nbsp;Courses &amp; Results</a></li>
+                <li><a href="https://portal.aiub.edu/Student/Registration?q=iBpjLWVwA0Vwz63h67B%2BnA%3D%3D"><i class="glyphicon glyphicon-flash" aria-hidden="true"></i>&nbsp;Registration</a></li>
+                <li><a href="https://portal.aiub.edu/Student/GradeReport/ByCurriculum?q=mxPlMMGCoVQ%3D"><i class="glyphicon glyphicon-certificate" aria-hidden="true"></i>&nbsp;Grade Report</a></li>
+            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-00000000-0000-0000-0000-000000000000">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div id="noti_Counter" style="display: block; opacity: 1; top: 26px;">1</div> <!--SHOW NOTIFICATIONS COUNT.-->
+                        <!--A CIRCLE LIKE BUTTON TO DISPLAY NOTIFICATION DROPDOWN.-->
+                        <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" id="noti_Button">
+                            <div ng-click="SeeNotifications()">&nbsp;&nbsp;<span class="fa fa-bell"></span><span class="hidden-lg hidden-md hidden-sm">&nbsp;Notifications</span></div>
+                        </a>
+
+                        
+                        <!--THE NOTIFICAIONS DROPDOWN BOX.-->
+                        <div id="notifications">
+                            <div style="width: 100%">
+                                <h3>
+                                    Notifications
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" class="pull-right" ng-click="DocumentClick()">Close</a>
+                                </h3>
+                            </div>
+                            <div class="col-md-12" style="height: 300px; overflow-y: scroll">
+                                <div ng-show="Notifications.length==0" class="row ng-hide" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998; text-align: center">
+                                    <b>Nothing to Show....</b>
+                                </div>
+                                <!-- ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">1</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">1 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">2</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">3 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">3</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">Notice Changed By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">4 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">4</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">4 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">5</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">5 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">6</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">Notice Changed By AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">7</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">8</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">9</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">10</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">11</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">6 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">12</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">8 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">13</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">Notice Changed By AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">10 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">14</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">10 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">15</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">12 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">16</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">12 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">17</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">12 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">18</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New Notice Posted By DR. MD. SAKIR  HOSSAIN [1805-1890-2]</b></small><br><small class="ng-binding">12 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">19</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">13 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications --><div ng-repeat="notification in Notifications" class="ng-scope">
+                                    <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToUrl(notification)">
+                                        <div class="row" style="margin: 5px; padding: 5px; background-color: lightblue; border-radius: 15px; color: #3b5998;">
+                                            <div class="col-md-1 col-sm-12 col-xs-12 hidden-sm hidden-xs"><small class="ng-binding">20</small></div>
+                                            <div class="col-md-11 col-sm-12 col-xs-12"><small><b class="ng-binding">New notes uploaded by AKINUL ISLAM  JONY [1509-1662-2]</b></small><br><small class="ng-binding">13 days ago</small></div>
+                                            
+                                        </div>
+                                    </a>
+                                </div><!-- end ngRepeat: notification in Notifications -->
+                            </div>
+                            <div class="seeAll"><a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" ng-click="GoToNotification1(&#39;/Student/Notification&#39;)">See All</a></div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="fa fa-cog"></span><span class="hidden-lg hidden-md hidden-sm">&nbsp;Settings</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="arrow top"></div>
+                            <li><a href="https://portal.aiub.edu/Student/Credential/ChangePassword">Change Password</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://portal.aiub.edu/Login/Logout">
+                            <span class="fa fa-sign-out"></span><span class="hidden-lg hidden-md hidden-sm">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="navbar-text navbar-right" style="padding-right: 10px;">Welcome <a href="https://portal.aiub.edu/Student/Home/Profile" class="navbar-link"><small>HOSSAIN, RIFAT</small></a></p>
+                    </li>
+                </ul>
+
+
+
+
+                
+
+
+
+
+
+
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+
+    </nav>
+
+</div>
+
+<style>
+    /* A CIRCLE LIKE BUTTON IN THE TOP MENU. */
+    #noti_Button {
+        margin: 0px 0px 0px -8px;
+    }
+
+    /* THE POPULAR RED NOTIFICATIONS COUNTER. */
+    #noti_Counter {
+        display: block;
+        position: absolute;
+        background: #E1141E;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 1px 3px;
+        margin: -8px 0 0 25px;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        z-index: 1;
+    }
+
+
+    /* THE NOTIFICAIONS WINDOW. THIS REMAINS HIDDEN WHEN THE PAGE LOADS. */
+    #notifications {
+        display: none;
+        width: 430px;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        background: #FFF;
+        border: solid 1px rgba(100, 100, 100, .20);
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .20);
+        z-index: 9000;
+    }
+
+
+
+    @media (max-width: 770px) {
+
+        #noti_Counter {
+            display: block;
+            position: absolute;
+            background: #E1141E;
+            color: #FFF;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 1px 3px;
+            margin: -25px 0 0 25px;
+            border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            z-index: 1;
+        }
+
+        #notifications {
+            display: block;
+            width: 300px;
+            position: sticky;
+            top: 35px;
+            right: 10px;
+            background: #FFF;
+            border: solid 1px rgba(100, 100, 100, .20);
+            -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .20);
+            z-index: 9000;
+        }
+    }
+
+    /* AN ARROW LIKE STRUCTURE JUST OVER THE NOTIFICATIONS WINDOW */
+    /*#notifications:before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            color: transparent;
+            border: 10px solid #CCC;
+            border-color: transparent transparent #FFF;
+            margin-top: -20px;
+            margin-left: 10px;
+        }*/
+
+    h3 {
+        display: block;
+        color: #333;
+        background: #FFF;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 8px;
+        margin: 0;
+        border-bottom: solid 1px rgba(100, 100, 100, .30);
+    }
+
+    .seeAll {
+        background: #F6F7F8;
+        padding: 8px;
+        font-size: 12px;
+        font-weight: bold;
+        border-top: solid 1px rgba(100, 100, 100, .30);
+        text-align: center;
+    }
+
+        .seeAll a {
+            color: #3b5998;
+        }
+
+            .seeAll a:hover {
+                background: #F6F7F8;
+                color: #3b5998;
+                text-decoration: underline;
+            }
+</style>
+
+
+
+<script>
+    $(document).ready(function () {
+
+        $('#noti_Button').click(function () {
+            return false;
+        });
+
+        $('#notifications').click(function () {
+            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
+        });
+    });
+</script>
+
+        <div class="portal-body">
+            
+
+<div id="drawerExample" class="drawer dw-xs-8 dw-sm-6 dw-md-4 fold hidden-lg hidden-md" aria-labelledby="drawerExample">
+    <div class="drawer-controls">
+        <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#drawerExample" data-toggle="drawer" aria-foldedopen="false" aria-controls="drawerExample" class="drawer-menu-link">
+            <i class="fa fa-2x fa-bars" aria-hidden="true" style="opacity: 0.33;"></i>
+        </a>
+    </div>
+
+    <div class="drawer-contents">
+        
+        <div class="drawer-body">
+
+
+<div class="panel-group" id="accordiona33659fc-dc72-4a91-8e55-077b42d5e2cb" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading026d0b0b-baae-406e-ba12-7e1495aff1f9">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordiona33659fc-dc72-4a91-8e55-077b42d5e2cb" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse026d0b0b-baae-406e-ba12-7e1495aff1f9" aria-expanded="false" aria-controls="collapse026d0b0b-baae-406e-ba12-7e1495aff1f9" class="collapsed">
+                    <i class="fa fa-bar-chart-o"></i>&nbsp;Academics
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapse026d0b0b-baae-406e-ba12-7e1495aff1f9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading026d0b0b-baae-406e-ba12-7e1495aff1f9" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Course?q=iBpjLWVwA0VqUfd1zzMKvKuQZ4HHzfR0RBG0enAqZLY%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-list"></span>&nbsp;Courses &amp; Results
+                </a>
+                <a href="https://portal.aiub.edu/Student/Registration?q=iBpjLWVwA0Vwz63h67B%2BnA%3D%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-flash"></span>&nbsp;Registration
+                </a>
+                <a href="https://portal.aiub.edu/Student/Adrop/DropApplication?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-flash"></span>&nbsp;Drop Application
+                </a>
+                <a href="https://portal.aiub.edu/Student/Section/Offered?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-list-alt"></span>&nbsp;Offered Courses
+                </a>
+                <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-tasks"></span>&nbsp;My Curriculum
+                </a>
+                <a href="https://portal.aiub.edu/Student/Accounts?q=6Pzj5wBh8sg%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-usd"></span>&nbsp;Financials
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingfd3c8536-b149-4d86-beeb-5c3e081089ba">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordionfd3c8536-b149-4d86-beeb-5c3e081089ba" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapsefd3c8536-b149-4d86-beeb-5c3e081089ba" aria-expanded="false" aria-controls="collapsefd3c8536-b149-4d86-beeb-5c3e081089ba" class="collapsed">
+                    <i class="glyphicon glyphicon-certificate"></i>&nbsp;Grade Reports
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapsefd3c8536-b149-4d86-beeb-5c3e081089ba" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfd3c8536-b149-4d86-beeb-5c3e081089ba" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a href="https://portal.aiub.edu/Student/GradeReport/ByCurriculum?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-certificate"></span>&nbsp; By Curriculum</a>
+                <a href="https://portal.aiub.edu/Student/GradeReport/BySemester?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-certificate"></span>&nbsp;By Semester</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading487d81a6-a129-4a05-93ca-42bcdf98eb0e">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordiona33659fc-dc72-4a91-8e55-077b42d5e2cb" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse487d81a6-a129-4a05-93ca-42bcdf98eb0e" aria-expanded="false" aria-controls="collapse487d81a6-a129-4a05-93ca-42bcdf98eb0e" class="collapsed">
+                    <i class="fa fa-edit"></i> Library
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapse487d81a6-a129-4a05-93ca-42bcdf98eb0e" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading487d81a6-a129-4a05-93ca-42bcdf98eb0e" aria-expanded="false">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Library/SearchBooks?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-search"></span>&nbsp;Search Book</a>
+                <a href="https://portal.aiub.edu/Student/Library/CurrentBorrows?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Current Borrows</a>
+                <a href="https://portal.aiub.edu/Student/Library/BorrowHistory?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span>&nbsp;Borrow History</a>
+                <a href="https://portal.aiub.edu/Student/Library/Financials?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-usd"></span>&nbsp;Financial</a>
+                
+                
+                
+                <a href="https://portal.aiub.edu/Student/Library/UGC?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;UGC  Digital Library (UDL) E-Resources</a>
+                <a href="https://portal.aiub.edu/Student/Library/SAGE?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;SAGE</a>
+                <a href="https://portal.aiub.edu/Student/Library/Electronicjournals?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;INASP (Electronic Journals)</a>
+                <a href="https://portal.aiub.edu/Student/Library/Research4Life?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Research4Life</a>
+                <a href="https://portal.aiub.edu/Student/Library/BDLEX?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Online Legal Research Database Bangladesh - BDLEX</a>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading8267fe25-2389-42aa-ad31-9e187904cbc2">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordiona33659fc-dc72-4a91-8e55-077b42d5e2cb" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse8267fe25-2389-42aa-ad31-9e187904cbc2" aria-expanded="false" aria-controls="collapse8267fe25-2389-42aa-ad31-9e187904cbc2" class="collapsed">
+                    <i class="fa fa-picture-o"></i> Others
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h4>
+        </div>
+
+        <div id="collapse8267fe25-2389-42aa-ad31-9e187904cbc2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8267fe25-2389-42aa-ad31-9e187904cbc2" aria-expanded="false">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Application?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Applications</a>
+                <a href="https://portal.aiub.edu/Student/ParkingApplication" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Parking Applications</a>
+                <a href="https://portal.aiub.edu/Student/Home/OfficialForms?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-download"></span>&nbsp;Download Forms</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading6992230c-3fd1-470d-bfa2-adf05776dba0">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordiona33659fc-dc72-4a91-8e55-077b42d5e2cb" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse6992230c-3fd1-470d-bfa2-adf05776dba0" aria-expanded="false" aria-controls="collapse6992230c-3fd1-470d-bfa2-adf05776dba0" class="collapsed">
+                    <i class="fa fa-table"></i> Messages
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapse6992230c-3fd1-470d-bfa2-adf05776dba0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6992230c-3fd1-470d-bfa2-adf05776dba0" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a target="_blank" href="https://portal.aiub.edu/Message/Email" class="list-group-item"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Mail Box</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        </div>
+        
+    </div>
+
+</div>
+<div class="row">
+
+    <div id="navigation-bar" class="col-md-3 hidden-xs hidden-sm">
+
+
+<div class="panel-group" id="accordion0208388a-41a4-498e-bda5-7e3c536bef08" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingb77a73e8-adcd-4695-b950-a6c10f8a8274">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion0208388a-41a4-498e-bda5-7e3c536bef08" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapseb77a73e8-adcd-4695-b950-a6c10f8a8274" aria-expanded="false" aria-controls="collapseb77a73e8-adcd-4695-b950-a6c10f8a8274" class="collapsed">
+                    <i class="fa fa-bar-chart-o"></i>&nbsp;Academics
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseb77a73e8-adcd-4695-b950-a6c10f8a8274" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingb77a73e8-adcd-4695-b950-a6c10f8a8274" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Course?q=iBpjLWVwA0VqUfd1zzMKvKuQZ4HHzfR0RBG0enAqZLY%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-list"></span>&nbsp;Courses &amp; Results
+                </a>
+                <a href="https://portal.aiub.edu/Student/Registration?q=iBpjLWVwA0Vwz63h67B%2BnA%3D%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-flash"></span>&nbsp;Registration
+                </a>
+                <a href="https://portal.aiub.edu/Student/Adrop/DropApplication?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-flash"></span>&nbsp;Drop Application
+                </a>
+                <a href="https://portal.aiub.edu/Student/Section/Offered?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-list-alt"></span>&nbsp;Offered Courses
+                </a>
+                <a href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-tasks"></span>&nbsp;My Curriculum
+                </a>
+                <a href="https://portal.aiub.edu/Student/Accounts?q=6Pzj5wBh8sg%3D" class="list-group-item">
+                    <span class="glyphicon glyphicon-usd"></span>&nbsp;Financials
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2" aria-expanded="false" aria-controls="collapse8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2" class="collapsed">
+                    <i class="glyphicon glyphicon-certificate"></i>&nbsp;Grade Reports
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapse8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8c32d989-ceae-4a5b-b9f6-b00f82cc7fc2" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a href="https://portal.aiub.edu/Student/GradeReport/ByCurriculum?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-certificate"></span>&nbsp; By Curriculum</a>
+                <a href="https://portal.aiub.edu/Student/GradeReport/BySemester?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-certificate"></span>&nbsp;By Semester</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headinga88dd843-744a-46dd-b445-1672aac76ff1">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion0208388a-41a4-498e-bda5-7e3c536bef08" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapsea88dd843-744a-46dd-b445-1672aac76ff1" aria-expanded="false" aria-controls="collapsea88dd843-744a-46dd-b445-1672aac76ff1" class="collapsed">
+                    <i class="fa fa-edit"></i> Library
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapsea88dd843-744a-46dd-b445-1672aac76ff1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinga88dd843-744a-46dd-b445-1672aac76ff1" aria-expanded="false">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Library/SearchBooks?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-search"></span>&nbsp;Search Book</a>
+                <a href="https://portal.aiub.edu/Student/Library/CurrentBorrows?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Current Borrows</a>
+                <a href="https://portal.aiub.edu/Student/Library/BorrowHistory?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span>&nbsp;Borrow History</a>
+                <a href="https://portal.aiub.edu/Student/Library/Financials?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-usd"></span>&nbsp;Financial</a>
+                
+                
+                
+                <a href="https://portal.aiub.edu/Student/Library/UGC?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;UGC  Digital Library (UDL) E-Resources</a>
+                <a href="https://portal.aiub.edu/Student/Library/SAGE?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;SAGE</a>
+                <a href="https://portal.aiub.edu/Student/Library/Electronicjournals?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;INASP (Electronic Journals)</a>
+                <a href="https://portal.aiub.edu/Student/Library/Research4Life?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Research4Life</a>
+                <a href="https://portal.aiub.edu/Student/Library/BDLEX?q=6Pzj5wBh8sg%3D" class="list-group-item"><span class="glyphicon glyphicon-star"></span>&nbsp;Online Legal Research Database Bangladesh - BDLEX</a>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingcaad268a-9ba9-4f84-9886-4d2ab6d501a2">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion0208388a-41a4-498e-bda5-7e3c536bef08" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapsecaad268a-9ba9-4f84-9886-4d2ab6d501a2" aria-expanded="false" aria-controls="collapsecaad268a-9ba9-4f84-9886-4d2ab6d501a2" class="collapsed">
+                    <i class="fa fa-picture-o"></i> Others
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h4>
+        </div>
+
+        <div id="collapsecaad268a-9ba9-4f84-9886-4d2ab6d501a2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingcaad268a-9ba9-4f84-9886-4d2ab6d501a2" aria-expanded="false">
+            <div>
+                <a href="https://portal.aiub.edu/Student/Application?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Applications</a>
+                <a href="https://portal.aiub.edu/Student/ParkingApplication" class="list-group-item"><span class="glyphicon glyphicon-file"></span>&nbsp;Parking Applications</a>
+                <a href="https://portal.aiub.edu/Student/Home/OfficialForms?q=mxPlMMGCoVQ%3D" class="list-group-item"><span class="glyphicon glyphicon-download"></span>&nbsp;Download Forms</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading32022a72-42c7-417e-9f17-38fe11f37139">
+            <h5 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion0208388a-41a4-498e-bda5-7e3c536bef08" href="https://portal.aiub.edu/Student/Curriculum?q=mxPlMMGCoVQ%3D#collapse32022a72-42c7-417e-9f17-38fe11f37139" aria-expanded="false" aria-controls="collapse32022a72-42c7-417e-9f17-38fe11f37139" class="collapsed">
+                    <i class="fa fa-table"></i> Messages
+                    <i class="pull-right fa fa-caret-down"></i>
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapse32022a72-42c7-417e-9f17-38fe11f37139" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32022a72-42c7-417e-9f17-38fe11f37139" aria-expanded="false" style="height: 0px;">
+            <div>
+                <a target="_blank" href="https://portal.aiub.edu/Message/Email" class="list-group-item"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Mail Box</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    </div>
+    <div id="main-content" class="col-md-9 col-xs-12">
+        
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h5 class="panel-title">Curriculums</h5>
+    </div>
+    <div class="panel-body">
+
+        <h4>FACULTY OF SCIENCE &amp; TECHNOLOGY</h4>
+        <h4>Bachelor of Science in Computer Science &amp; Engineering</h4>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <b>Bachelor of Science in Computer Science &amp; Engineering</b>
+
+            </div>
+            <div class="panel-body padding-none">
+                <table class="table table-bordered margin-none curriculum-info">
+                    <tbody><tr>
+                        <td style="width: 30%">
+                            Curriculum Type:
+                        </td>
+                        <td>
+                            Core
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Title:
+                    </td>
+                    <td>
+                        BScCSE, Summer 17-18, Core
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Year:
+                </td>
+                <td>
+                    Summer 17-18
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Total Semester(s):
+            </td>
+            <td>
+                8
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Total Credit:
+        </td>
+        <td>
+            0
+    </td>
+</tr>
+<tr>
+    <td>
+        Total Course:
+    </td>
+    <td>
+        0
+</td>
+</tr>
+<tr>
+    <td>
+        Credit Required To Complete:
+    </td>
+    <td>
+        -
+    </td>
+</tr>
+<tr>
+    <td>
+        Total Course Required To Complete:
+    </td>
+    <td>
+        -
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <button role="button" class="btn btn-success btnShowCurriculumCourses" curriculumid="309">Show Curriculum Courses</button>
+    </td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <b>BScCSE, Summer 17-18, Elective</b>
+        </div>
+        <div class="panel-body padding-none">
+            <table class="table table-bordered margin-none curriculum-info">
+                <tbody><tr>
+                    <td style="width: 30%">
+                        Curriculum Type:
+                    </td>
+                    <td>
+                        Elective
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    BScCSE, Summer 17-18, Elective
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Year:
+            </td>
+            <td>
+                Summer 17-18
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Total Semester(s):
+        </td>
+        <td>
+            1
+    </td>
+</tr>
+<tr>
+    <td>
+        Total Credit:
+    </td>
+    <td>
+        0
+</td>
+</tr>
+<tr>
+    <td>
+        Total Course:
+    </td>
+    <td>
+        0
+</td>
+</tr>
+<tr>
+    <td>
+        Credit Required To Complete:
+    </td>
+    <td>
+        -
+    </td>
+</tr>
+<tr>
+    <td>
+        Total Course Required To Complete:
+    </td>
+    <td>
+        -
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <button role="button" class="btn btn-success btnShowCurriculumCourses" curriculumid="338">Show Curriculum Courses</button>
+    </td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade in" id="curriculumCoursesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">
+    <div class="modal-dialog" style="">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div id="divCurriculumCourses" style="height: 550px; overflow: auto"><div class="grade-report margin5" id="divPrint">
+    
+    <h3 class="text-center">American International University-Bangladesh</h3>
+    <h5 class="text-center">Curriculum Courses</h5>
+    <table class="table table-bordered margin-none curriculum-info">
+        <tbody><tr>
+            <td style="width: 30%">
+                Curriculum No:
+            </td>
+            <td>
+                338
+        </td>
+
+        <td style="width: 30%">
+            Title:
+        </td>
+        <td>
+            BScCSE, Summer 17-18, Elective
+    </td>
+</tr>
+
+</tbody></table>
+        <label>Semester: 1</label>
+        <table class="table table-bordered">
+            <tbody><tr>
+                <th style="width: 10%">Code</th>
+                <th style="width: 50%">Name</th>
+                <th style="width: 20%">Credit<br>(Lec-Sci-Comp-Lan-Stu)</th>
+                <th style="width: 20%">Pre-Requisite</th>
+            </tr>
+                <tr>
+                    <td>CSC4181</td>
+                    <td>ADVANCE DATABASE MANAGEMENT SYSTEM</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC2108</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>BAE1201</td>
+                    <td>BASIC MECHANICAL ENGG.</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>PHY1203</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4125</td>
+                    <td>COMPUTER SCIENCE MATHEMATICS</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC2211</li>
+                            <li>MAT3101</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>MIS3101</td>
+                    <td>MANAGEMENT INFORMATION SYSTEM</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3112</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE2213</td>
+                    <td>SIGNALS &amp; LINEAR SYSTEM</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>MAT2202</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4126</td>
+                    <td>BASIC GRAPH THEORY</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC2211</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4128</td>
+                    <td>DIGITAL SYSTEM DESIGN</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3205</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4231</td>
+                    <td>IMAGE PROCESSING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4118</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4129</td>
+                    <td>MULTIMEDIA SYSTEMS</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4230</td>
+                    <td>SIMULATION &amp; MODELING</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>MIS4011</td>
+                    <td>ENTERPRISE RESOURCE PLANNING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3112</li>
+                            <li>MIS3101</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4285</td>
+                    <td>DATA WAREHOUSE AND DATA MINING </td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4180</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4233</td>
+                    <td>NATURAL LANGUAGE PROCESSING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                            <li>CSC4162</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4270</td>
+                    <td>SOFTWARE DEVELOPMENT PROJECT MANAGEMENT</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4160</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4182</td>
+                    <td>HUMAN COMPUTER INTERACTION</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4126</td>
+                    <td>ADVANCED COMPUTER NETWORKS</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3206</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4160</td>
+                    <td>SOFTWARE REQUIREMENT ENGINEERING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3112</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4234</td>
+                    <td>COMPUTER VISION AND PATTERN RECOGNITION</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4118</li>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4128</td>
+                    <td>LINEAR PROGRAMMING</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                            <li>MAT3103</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4232</td>
+                    <td>NETWORK SECURITY</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3206</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4271</td>
+                    <td>SOFTWARE QUALITY AND TESTING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4160</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4125</td>
+                    <td>ADVANCED OPERATING SYSTEM</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3214</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE4233</td>
+                    <td>DIGITAL DESIGN WITH SYSTEM [ VERILOG,VHDL &amp; FPGAS ]</td>
+                    <td>
+                        3 1 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>EEE4217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4235</td>
+                    <td>ROBOTICS ENGINEERING</td>
+                    <td>
+                        3 1 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>MIS4014</td>
+                    <td>BUSINESS INTELLIGENCE AND DECISION SUPPORT</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>MIS4011</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE4209</td>
+                    <td>TELECOMMUNICATIONS ENGINEERING</td>
+                    <td>
+                        3 1 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3103</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4162</td>
+                    <td>PROGRAMMING IN PYTHON</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4163</td>
+                    <td>ADVANCED PROGRAMMING WITH JAVA</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4164</td>
+                    <td>ADVANCED PROGRAMMING WITH .NET</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4161</td>
+                    <td>ADVANCED PROGRAMMING IN WEB TECHNOLOGY</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4127</td>
+                    <td>ADVANCED ALGORITHM TECHNIQUES</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4127</td>
+                    <td>NETWORK RESOURCE MANAGEMENT &amp; ORGANIZATION</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3206</li>
+                            <li>COE3103</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4180</td>
+                    <td>INTRODUCTION TO DATA SCIENCE</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4183</td>
+                    <td>CYBER LAWS &amp; INFORMATION SECURITY</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4230</td>
+                    <td>BIOINFORMATICS</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4231</td>
+                    <td>PARALLEL COMPUTING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC2211</li>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4232</td>
+                    <td>MACHINE LEARNING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3217</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>COE4233</td>
+                    <td>WIRELESS SENSOR NETWORKS</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>COE3206</li>
+                            <li>COE3103</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE4241</td>
+                    <td>INDUSTRIAL ELECTRONICS, DRIVES &amp; INSTRUMENTATION</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>EEE3101</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4272</td>
+                    <td>MOBILE APPLICATION DEVELOPMENT</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>CSC4273</td>
+                    <td>SOFTWARE ARCHITECTURE AND DESIGN PATTERNS</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC4160</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>MIS4007</td>
+                    <td>DIGITAL MARKETING</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>MIS3101</li>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>MIS4012</td>
+                    <td>E-COMMERCE, E-GOVERNANCE &amp; E-SERIES</td>
+                    <td>
+                        3 0 0 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>CSC3215</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE3103</td>
+                    <td>DIGITAL SIGNAL PROCESSING</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>EEE2213</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>EEE4217</td>
+                    <td>VLSI CIRCUIT DESIGN</td>
+                    <td>
+                        3 0 1 0 0
+                </td>
+                <td>
+                    <ul>
+                            <li>EEE4241</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+        </tbody></table>
+
+</div>
+
+
+<script type="text/javascript">
+    $('#btnPrint').click(function () {
+        $('#btnPrint').hide();
+        $('#header').hide();
+        //document.getElementById("studentList").print();
+        window.print();
+        return false;
+    });
+</script>
+
+</div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+
+    </div>
+
+</div>
+
+        </div>
+        
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#divCurriculumCourses').html('Loading...');
+
+
+            $(".btnShowCurriculumCourses").click(function () {
+                $('#curriculumCoursesModal').modal('show');
+
+                var methodUrl = "/Common/Curriculum";
+                var parameters = { "ID": $(this).attr("curriculumID") };
+
+                $.ajax({
+                    type: "GET",
+                    url: methodUrl,
+                    data: parameters,
+                    async: true,
+                    cache: false,
+                    success: function (data) {
+                        $('#divCurriculumCourses').html(data);
+                    },
+                    error: function (result) {
+                        $('#divCurriculumCourses').html(result.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.table-details').footable({
+                "sorting": {
+                    "enabled": true
+                }
+            });
+
+            var lastScrollTop = 0;
+
+            $(window).scroll(function (event) {
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop) {
+                    if (st > 15) {
+                        $(".drawer-menu-link>i").css({ opacity: .33 });
+                    }
+                } else {
+                    if (st < 15) {
+                        $(".drawer-menu-link>i").css({ opacity: 1 });
+                    }
+                }
+                lastScrollTop = st;
+                //console.log(st);
+            });
+
+
+
+        });
+    </script>
+
+    </div>
+
+
+<div class="modal-backdrop fade in"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

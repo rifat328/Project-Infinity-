@@ -1,0 +1,37 @@
+Author: Rifat Hossain, Bsc,CSE
+Contact: rifathossain328663@gmail.com , kakonpharma@gmail.com
+                        * Project Infinity *
+Project Title: Develop a course management application using Python
+
+This project is a class work which will use basic python 3.10 ++
+and relative file system to make a course storing system .
+
+                         * Reqirements *
+1. Each course should have the information like course code, title of the course, course credit, and
+   list of prerequisites (course code) of the course.
+
+2. Adding functionality: To add a new course.
+
+3. Updating functionality: To update an existing course.
+
+4. Deleting functionality: To delete an existing course.
+
+5. All course display functionality: To display information about all the courses.
+
+6. Individual course display functionality: To display all the information of a course.
+
+7. Search functionality: To search for a particular course and display the contents. If the course is
+   not present in the application already, then prompt user to add the new course.
+
+8. Prerequisite/main course checking functionality: When you add the prerequisites of a new
+   course, make sure the prerequisite course is already exists in the course list. That’s why you
+   should have a checking functionality when you are going for adding a new course or adding
+   prerequisite of any course. If course is not exists, then prompt user to add the course first to add
+   it as a prerequisite of a course, or as a main course.
+
+9. Store functionality: Finally, it should have a store functionality to store all the courses in the
+   application into a text file if user wants to maintain a physical copy in his/her hard drive.
+
+10. As this application would be a console-based, so first display a menu containing all the available options
+    of the application, and then user will decide what he wants to do. User can exit from the application
+    when he pressed “quit”.
